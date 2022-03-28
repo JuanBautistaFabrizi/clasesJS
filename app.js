@@ -27,15 +27,17 @@ alert(resultado);
 console.log(resultado); 
 
 /* utilizo la función prompt para almacenar un valor en una variable */
-let numero3 = prompt("Por ingrese un número");
+/* let numero3 = prompt("Por ingrese un número");
 let numero4 = prompt("Por ingrese otro número");
 resultado = numero3 - numero4;
-console.log(resultado);
+console.log(resultado); */
 /* puedo concatenar strings sumándolos */
-nombre = prompt("Ingrese su nombre");
+/* nombre = prompt("Ingrese su nombre");
 let apellido = prompt("Por favor ingrese su apellido");
 let nombreCompleto = nombre + " " + apellido;
-alert(nombreCompleto);
+alert(nombreCompleto); */
+
+
 
 /* 
 operadores aritméticos
@@ -52,9 +54,60 @@ function sumaNumeros(x,y,z) {
     resultado2 = x + y + z;
     alert(resultado2);
 }
-
+console.log();
 /* llamado a una función */
-sumaNumeros(4,8,3);
+/* sumaNumeros(4,8,3); */
 
 alert("error intenta");
 console.log(resultado);
+
+/* let numerox =parseFloat(prompt("Escriba un número")); 
+let numeroy =parseFloat(prompt("Escriba otro número"));
+
+
+function sumar(x,y) {
+    let resultadoNumers;
+    resultadoNumers = x + y;
+    alert(resultadoNumers);
+    
+}
+
+sumar(numerox,numeroy);
+saludar(nombre,apellido); */
+
+/* Condicionales */
+/* SI tal cosa 
+    hace esto
+SINO 
+    hace otra cosa */
+let edad = prompt("Ingrese su edad");
+let nombrex = prompt("Ingrese su nombre");
+
+if (edad >= 18 || nombrex) {
+    alert("Podes tomar bebidas alcoholicas");
+} else if( edad >= 120){
+    alert("Deberias cuidarte un poco");
+}
+else{
+    alert("No podes tomar cerveza");
+}   
+
+switch (dia) {
+    case "lunes":
+            alert("ir a la tienda");
+        break;
+        case "martes":
+            alert("ir al médico");
+        break;
+        case 17:
+            alert("No podes tomar alcohol")
+        break;
+    default:
+        alert("Ingrese un día correcto");
+        break;
+}
+
+const boton = document.getElementById("btn");
+const footer = document.getElementsByClassName("footer");
+
+
